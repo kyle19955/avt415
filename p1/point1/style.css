@@ -5,28 +5,32 @@ background-color: #f5e4dc;
 h1 {
 font-family: "K2D", sans-serif;
 text-align: center;
-font-weight: 800
+font-weight: 800;1
 font-style: normal;
-font-size: 300px 
-word-spacing: 3px
-color: #a33607 ;
+font-size: 60px; 
+word-spacing: 10px;
+color: #781d01;
+text-decoration: underline;
+text-decoration-color: #360d01;
 }
 
 h2 {
 font-family: "K2D", sans-serif;
 text-align: center;
-font-weight: 400
+font-weight: 500;1
 font-style: normal;
-font-size: 60px
-color: 
+font-size: 30px;
+color: #ab320e;
 }
 
 
 p {
-font-family: 
-font-weight: 
-text-align: 
-text-indent: 
-line-height: 
+font-family: "Roboto", sans-serif;
+font-weight: 400; 1
+text-align: center; 
+line-height: 30px;
+color: #360d01;
+padding-right: 150px;
+padding-left: 150px;
 }
 
