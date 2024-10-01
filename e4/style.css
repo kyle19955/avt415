@@ -1,5 +1,7 @@
 body{
-	background-color: goldenrod;
+	background-color: blue;
+	background-image: :linear-gradient (blue, red);
+	
 }
 
 h1{
@@ -14,8 +16,7 @@ h1{
 
 @media screen and (min-width: 768px) {/* styles for screen sizes 768px and above */
 	body{
-		background-image: linear-gradient (blue, red);
-		background-attachment: fixed;
+		
 	}
 
 	h1{
