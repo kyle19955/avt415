@@ -1,5 +1,5 @@
 body{ 
-background-color: ;
+background-color:#ffe8bf ;
  }
 
 h1 {
@@ -9,9 +9,9 @@ font-weight: 800;1
 font-style: normal;
 font-size: 60px; 
 word-spacing: 10px;
-color: #781d01;
+color:#853928 ;
 text-decoration: underline;
-text-decoration-color: ;
+text-decoration-color:#57251a ;
 }
 
 h2 {
@@ -20,7 +20,7 @@ text-align: center;
 font-weight: 500;1
 font-style: normal;
 font-size: 30px;
-color: ;
+color: #ad361c;
 }
 
 p {
@@ -28,7 +28,7 @@ font-family: "Roboto", sans-serif;
 font-weight: 400; 1
 text-align: center; 
 line-height: 30px;
-color: ;
-padding-right: 150px;
-padding-left: 150px;
+color:black ;
+padding-right: 300px;
+padding-left: 300px;
 }
