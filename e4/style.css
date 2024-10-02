@@ -1,26 +1,83 @@
-body{
-	background-color: blue;
-	background-image: :linear-gradient (blue, red);
-	
-}
 
-h1{
-	font-family: sans-serif;
-	font-size:100px;
-	text-transform: uppercase;
-	letter-spacing:1px;
-	color: white;
+
+	h1{
+	font-family: "Rubik Mono One", system-ui;
+	font-size:200px;
+	color:black;
+	letter-spacing:3px;
 	text-align:center;
-	margin-top: 35vh;
-}
+	text-decoration: underline;
+	text-decoration-style: wavy;
+	text-decoration-color:white;
+	text-decoration-thickness: 5px;  
+	text-underline-offset: 30px; 
+	line-height: 150px;
+
+	}
+
+	h2{
+	font-family: "Poetsen One", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 100px;
+	color: white;
+	text-align: center;
+	letter-spacing: 3px;
+	word-spacing: 6px;
+	-webkit-text-stroke:black 1px;
+	margin-top: 10vh;
+
+	}
+
+	img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%,
+
+	}
 
 @media screen and (min-width: 768px) {/* styles for screen sizes 768px and above */
 	body{
-		
+		background-color: #ffc9f0;
+	} 
+
+	.cake{
+	display: none;	
 	}
 
-	h1{
-		font-size: 100px;
-		color: black;
-		margin-top: 45vh;
+	.live{
+	display: none;	
+	}
+
+	img{
+	display: none;	
+	}
+	
+	}
+
+@media screen and (max-width: 767px) {/* styles for screen sizes 767px and below */
+	body{
+		background-color: #c9ecff;		
+	}
+
+	.cake{
+	color: #41687d;
+	font-size: 100px;
+	line-height: 75px;	
+	}
+
+	.live{
+	font-size: 50px;	
+	}
+
+	.birthday{
+	display: none;	
+	}
+
+	.you{
+	display: none;	
+	}
+
+
 	}
