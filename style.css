@@ -1,17 +1,27 @@
 body{
 
-	background-color: #ffefe3;
+	background-color: #ffd9c2;
 
 }
 
 a{
+	color: black;
 	text-decoration: none;
+	font-family: "Roboto", sans-serif;
+    font-weight: 300; 0
 
+}
+
+
+li{
+	line-height: 30px;
 }
 
 h1{
 	color: #574d3e;
 	font-family: "K2D", sans-serif;
+	font-weight: 800;1
+	font-size: 200%;
 }
 
 h2{
@@ -22,5 +32,9 @@ h2{
 h3{
 	color: #574d3e;
 	font-family: "K2D", sans-serif;
+}
+
+hr{
+	border-color: black;
 }
 
