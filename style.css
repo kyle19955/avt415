@@ -12,16 +12,24 @@ a{
 
 }
 
+a:hover{
+	color: darkred;
+}
+
 
 li{
 	line-height: 30px;
+}
+
+li:hover{
+	color: darkred;
 }
 
 h1{
 	color: black;
 	font-family: "K2D", sans-serif;
 	font-weight: 800;1
-	font-size: ;
+	font-size: 
 }
 
 h2{
